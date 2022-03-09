@@ -8,7 +8,7 @@ This tool is not an email builder or generator, it is an email editor.
 
 The purpose of this tool is to allow the modification on the fly of existing email templates. It is primarily intended for non-technical people, who cannot intervene in the html code.
 
-In this example, I have placed three classic visitorrep trigger email templates. 
+In this example, I have placed three classic rep trigger email templates. 
 
 ## How to use ? (non tech)
 
