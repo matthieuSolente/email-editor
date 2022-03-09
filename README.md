@@ -14,12 +14,14 @@ Put the screenshot in the email-editor/image/templates folder
 put your html file in the email-editor/templates folder and give it a name width the prefix "email-*"
 go to the js folder and template.js file
 go to the section  
-
+```
 /***********************************************/
  /* EMAIL BUILDER : ADD VISITOR TEMPLATES ON CLICK IN TINYMCE EDITOR*/   
  /***********************************************/
+ ```
  and add a block code
  
+ ```
   $("#add-template--yourtemplatename").click(function() {
    $.ajax({
      url : "http://localhost/email-editor/templates/email-yourtemplatename.html",
@@ -31,14 +33,15 @@ go to the section
      }
    });
  });
+ ```
  
  go to the index.php file and add a code block
- 
+ ```
  <button type="button" class="component" id="add-template--yourtemplatename">
     <span> your title </span>
     <div class="components">
       <div class="template template-yourtemplatename"></div>
     </div>
   </button>
-        
+ ```       
         
